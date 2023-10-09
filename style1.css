@@ -1,0 +1,545 @@
+@font-face {
+    font-family: 'Kenia';
+    src: url(/fonts/Kenia-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Karla';
+    src: url(/fonts/karla.regular.ttf);
+}
+
+
+@font-face {
+    font-family: 'Cyber';
+    src: url(/fonts/Cyberpunk.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    height: 100%;
+    flex-direction: column;
+}
+
+.header {
+    width: 100%;
+    min-height: 1024px;
+    background-image: url(img1/desktop.png);
+}
+
+.navigation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 47px;
+}
+
+.logo {
+    display: block;
+    margin-left: 320px;
+}
+
+.nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    margin: 0 auto;
+    padding: 0;
+    margin-left: 190px;
+    list-style: 0;
+    align-items: center;
+}
+
+.navigation-link-main {
+    display: block;
+    text-decoration: none;
+    font-size: 23px;
+    font-family: "Istok Web";
+    font-weight: 400;
+    line-height: 40px;
+    color: white;
+}
+
+.container-page-header {
+    display: flex;
+    padding-top: 22px;
+    padding-left: 300px;
+}
+
+.header-text-list {
+    padding-top: 136px;
+    list-style: none;
+}
+
+.text-header1 {
+    width: 461px;
+    font-family: 'Kenia';
+    color: white;
+    font-size: 160px;
+    font-weight: 400;
+}
+
+.text-header2 {
+    padding-top: 175px;
+    color: white;
+    font-size: 22px;
+    font-family: 'Istok Web';
+    font-weight: 400;
+    width: 290px;
+}
+
+.phone-div{
+    position: relative;
+    width: 500px;
+    height: 888px;
+    margin-left: 400px;
+}
+
+.phone {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2; 
+}
+
+.kabel {
+    position: absolute; 
+    top: 730px; 
+    left: 50px;
+    height: 158px;
+    z-index: 1; 
+}
+
+.music-section {
+    width: 100%;
+    min-height: 1024px;
+    background: #D53005;
+}
+
+.section-title {
+    padding-top: 83px;
+    padding-left: 300px;
+    color: white;
+    font-size: 70px;
+    font-family: "Cyber";
+    font-weight: 400;
+}
+
+.container-page-music {
+    display: flex;
+    padding-top: 61px;
+}
+
+.music-text-list {
+    list-style: none;
+    padding-top: 206px;
+    padding-left: 300px;
+}
+
+.button-music {
+    background: linear-gradient(to right, #B13E18, #F3501A);
+    width: 382px;
+    height: 83px;
+    font-family: 'Karla';
+    color: white;
+    font-size: 45px;
+    font-weight: 400;
+    box-shadow: 5px 5px 10px black;
+    border: 1px solid rgba(0, 0, 0, 0.5)
+}
+
+.button-music-second {
+    margin-top: 88px;
+}
+
+.record-img {
+    margin-left: auto;
+}
+
+.about {
+    width: 100%;
+    height: 1024px;
+    background: linear-gradient(180deg, #D53005 0%, #000000 6.04%);
+}
+
+.text-about {
+    color: white;
+    font-weight: 300;
+    font-family: "Karla";
+    font-size: 30px;
+    line-height: 35px;
+    
+}
+
+.container-text-about {
+    padding-top: 358px;
+    text-align: center;
+}   
+
+.store-section {
+    width: 100%;
+    height: 1024px;
+    background: #D53005;
+}
+
+.footer {
+    height: 526px;
+    width: 100%;
+    background: linear-gradient(180deg, #D53005 0%, #000000 4.01%);
+}
+
+.list-footer {
+    display: flex;
+    padding-top: 120px;
+    padding-left: 670px;
+    list-style: none;
+    gap: 127px;
+}
+
+.table-list-for-list {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+
+.h2-link-footer {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    color: white;
+    text-decoration: none;
+}
+
+.text-link-footer {
+    color: white;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.text-footer-mini-logo {
+    width: 138px;
+    font-family: 'Kenia';
+    color: white;
+    font-size: 50px;
+    font-weight: 400;
+    padding-left: 300px;
+    padding-top: 76px;
+}
+
+.second-footer-list {
+    display: flex;
+    list-style: none;
+    padding-left: 300px;
+    gap: 120px;
+}
+
+.text-footer-second-list {
+    color: white;
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+
+.text2-link-footer {
+    color: white;
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.button-store {
+    width: 270px;
+    height: 70px;
+    border: 1px rgba(0, 0, 0, 0.70) solid;
+    border-radius: 30px;
+    box-shadow: 4px 4px 10px rgb(12 5 5 / 71%);
+    transition: transform 0.5s;
+}
+
+.button-store:hover {
+    transform: skew(-10deg);
+}
+
+.black-button {
+    background: black;
+    color: white;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+
+.black-button2 {
+    margin-top: 48px;
+    background: black;
+    color: white;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+
+.white-button {
+    margin-top: 48px;
+    background: white;
+    color: black;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+
+.container-page-store {
+    display: flex;
+    padding-top: 51px;
+    padding-left: 300px;
+}
+
+.store-text-list {
+    padding-top: 85px;
+    list-style: none;
+}
+
+.lid {
+    margin-left: 110px;
+    height: 642px;
+    width: 946px;
+    background: #1A202C;
+    border-top-left-radius: 28px;
+    border-top-right-radius: 28px;
+    border: 2px #4A5568 solid;
+}
+
+.screen-laptop-first {
+    display: inline-block;
+    height: 612px;
+    width: 934px;
+    background: black;
+    border-top-left-radius: 22px;
+    border-top-right-radius: 22px;
+    margin-left: 5.8px;
+    margin-top: 5.8px;
+}
+
+.main-screen-laptop {
+    height: 583px;
+    width: 886px;
+    background: linear-gradient(270deg, #484D54 0%, #343B43 100%);
+    margin-left: 24px;
+    margin-top: 29px;
+}
+
+.keyboard-laptop {
+    width: 1168px;
+    height: 21px;
+    background: linear-gradient(90deg, #0D1012 0%, #CAD4DB 2.95%, #242729 6.25%, #A3ACB1 13.36%, #A3ACB1 86.6%, #242729 94.19%, #CAD4DB 97.13%, #0D1012 99.64%), linear-gradient(0deg, #A3ACB1, #A3ACB1);
+    border-top-left-radius: 2px; 
+    border-top-right-radius: 2px;
+}
+
+.groove {
+    padding-left: 488px;
+}
+
+.bottom-laptop {
+    width: 1168px;
+    height: 14px; 
+    background: linear-gradient(180deg, #7A7F83 0%, #0B0B0E 100%);
+}
+
+.display-flex {
+    display: flex;
+}
+
+.music-player-div {
+    width: 104px;
+    height: 72px;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.music-player-text-laptop {
+    width: 56px;
+    height: 38px;
+    color: #C1C4CB;
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    padding-top: 15px;
+    padding-left: 23px;
+}
+
+.laptop-music-slider-div {
+    width: 781px;
+    height: 72px;
+    display: flex;
+    border-bottom: 1px solid black;
+}
+
+.icon-music-header-laptop {
+    padding-top: 7px;
+    padding-left: 36px;
+}
+
+.slider-and-text-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.your-music-header {
+    color: #E7E7E7;
+    font-size: 12px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}
+
+.name-music-header {
+    color: rgba(230.56, 230.56, 230.56, 0.70);
+    font-size: 12px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    padding-left: 8px;
+}
+
+.right-part-slider {
+    position: relative;
+    height: 9px;
+    width: 606px;
+    background: black;
+    box-shadow: -2px -2px 4px rgba(0, 0, 0, 0.50);
+    border-radius: 5px;
+    margin-top: 14px;
+    margin-left: 37px;
+}
+
+.left-part-slider {
+    width: 217px;
+    height: 9px;
+    background: linear-gradient(90deg, #D42F04 28.48%, #F3511C 98.17%);
+    border-radius: 5px;
+}
+
+.slider0 {
+    position: absolute; 
+    top: -11px;
+    left: 198px;
+    z-index: 2; 
+}
+
+.slider1 {
+    position: absolute; 
+    top: -4.45px;
+    left: 204.75px;
+    z-index: 2; 
+}
+
+.left-part-laptop {
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid black;
+    width: 104px;
+    height: 511px;
+}
+
+.buttons-laptop {
+    width: 87px;
+    height: 16px;
+    box-shadow: -4px -4px 14px 0px rgba(255, 255, 255, 0.08), 4px 4px 4px 0px rgba(0, 0, 0, 0.10);
+    border-radius: 30px;
+    margin-bottom: 12px;
+    margin-left: 9px;
+}
+
+.search-button {
+    margin-top: 4px;
+    margin-bottom: 27px;
+    background: rgba(217, 217, 217, 0.20);
+}
+
+.text-search {
+    color: black;
+    font-size: 9px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    word-wrap: break-word;
+    padding-left: 8px;
+    padding-top: 2px;
+}
+
+.store-button {
+    margin-top: 53px;
+    background: rgba(255, 0, 199, 0.30);
+}
+
+.text-button-laptop {
+    color: white;
+    font-size: 9px;
+    font-family: Montserrat;
+    font-weight: 400;
+    word-wrap: break-word;
+    text-align: center;
+    padding-top: 2px;
+}
+
+.red-laptop-button {
+    background: rgba(255, 0, 0, 0.20);
+}
+
+.blue-laptop-button {
+    background: rgba(5, 0, 255, 0.20);
+}
+
+.green-laptop-button {
+    background: rgba(5, 255, 0, 0.20);
+}
+
+.yellow-laptop-button {
+    background: rgba(255, 230, 0, 0.20);
+}
+
+.top-right-part-laptop {
+    width: 781px;
+    height: 431px;
+    border-bottom: 1px solid black;
+}
+
+.top10-and-search-container {
+    display: flex;
+    width: 136px;
+    margin-top: 26px;
+    margin-left: 281px;
+    height: 23px;
+    
+}
+
+.top10-div {
+    width: 68px;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    background: rgba(14, 0, 176, 0.50);
+    box-shadow: -4px -4px 18px 0px rgba(255, 253, 253, 0.03), 4px 4px 10px 0px rgba(0, 0, 0, 0.20);
+    text-align: center;
+}
+
+.after-top10-search-div {
+    width: 68px;
+    background: rgba(2, 255, 73, 0.50);
+    box-shadow: -4px -4px 14px 0px rgba(255, 255, 255, 0.03), 4px 4px 7px 0px rgba(0, 0, 0, 0.20);  
+    text-align: center;
+}
+
+.top10-text {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 9px;
+    font-weight: 500;
+    line-height: normal;
+}
